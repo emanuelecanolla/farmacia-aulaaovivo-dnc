@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: #f4e9f2;
+    font-family: "Raleway";
+}
+
+#header{
+    background-color: #76BEBE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 0;
+}
+
+#top-sec {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+
+    color: #CF509C;
+}
+
+.subtitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.logo {
+    width: 261px;
+    height: 160px;
+}
+
+#form-sec{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 56px;
+}
+
+form {
+    display: grid;
+    grid-auto-flow: row;
+    max-width: 467px;
+}
+
+
